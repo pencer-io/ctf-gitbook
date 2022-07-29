@@ -1,16 +1,16 @@
 # Table of contents
 
-* [Start Here](README.md)
-  * [Page 5](start-here/page-5.md)
-* [Page 1](page-1.md)
-* [Page 2](page-2.md)
-
-## Group 1
-
-* [Recon](group-1/recon/README.md)
-  * [Page 4](group-1/recon/page-4/README.md)
-    * [Page 3](group-1/recon/page-4/page-3.md)
-
-***
-
+* [CTF All The Things](README.md)
+* [Useful Stuff](useful-stuff/README.md)
+  * [Bash mkdir and cd](useful-stuff/bash-mkdir-and-cd.md)
+* [Planning & Reconnaissance](planning-and-reconnaissance.md)
+* [Discovery & Scanning](discovery-and-scanning/README.md)
+  * [Gobuster](discovery-and-scanning/gobuster.md)
+* [Gaining Access](gaining-access/README.md)
+  * [Upgrade Shell](gaining-access/upgrade-shell.md)
+  * [Port Enumeration](gaining-access/port-enumeration.md)
+  * [Bash wget](gaining-access/bash-wget.md)
+  * [Active Services](gaining-access/active-services.md)
+  * [Evil-WinRM](gaining-access/evil-winrm.md)
+* [Maintaining Access](maintaining-access.md)
 * [Pencer CTF Blog](https://pencer.io)
