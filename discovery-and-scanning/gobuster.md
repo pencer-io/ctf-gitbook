@@ -4,13 +4,13 @@
 
 Install:
 
-```
+```bash
 apt-get install gobuster
 ```
 
 Mode:
 
-```
+```bash
 gobuster dns -d <target domain> -w <wordlist>
 gobuster dir -u <target url> -w <wordlist>
 gobuster vhost -u <target url> -w <wordlist>
