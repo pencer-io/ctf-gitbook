@@ -13,7 +13,3 @@ This is mostly a reference for myself but hopefully others will find it useful. 
 {% hint style="warning" %}
 **DISCLAIMER.** All information contained in this blog is provided for educational and research purposes only. The author is not responsible for any illegal use of any information published on the pages of this blog.
 {% endhint %}
-
-{% embed url="https://pencer.io" %}
-
-{% embed url="https://github.com/pencer-io" %}
