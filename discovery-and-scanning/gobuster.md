@@ -39,3 +39,9 @@ Specify cookie:
 ```bash
 gobuster dir -u <target url> -w <wordlist> -c 'session=123456'
 ```
+
+Specify agent:
+
+```bash
+gobuster dir -u <target url> -w <wordlist> -a Linux
+```

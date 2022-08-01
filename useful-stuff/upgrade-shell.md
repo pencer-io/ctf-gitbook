@@ -21,7 +21,7 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 Ctrl+Z to background then get host stty size and terminal:
 
 ```
-tomcat@seal:/var/lib/tomcat9$ ^Z
+www-data@writer:/$ ^Z
 zsh: suspended  nc -nlvp 1337
 
 ┌──(root💀kali)-[~/htb/writer]
@@ -36,10 +36,10 @@ xterm-256color
 Then bring session to box back to foreground and apply settings:
 
 ```
-┌──(root💀kali)-[~/htb/seal]
+┌──(root💀kali)-[~/htb/writer]
 └─# stty raw -echo; fg
 [1]  + continued  nc -nlvp 1337
 
-tomcat@seal:/var/lib/tomcat9$ export TERM=xterm
-tomcat@seal:/var/lib/tomcat9$ stty rows 52 cols 237
+www-data@writer:/$ export TERM=xterm
+www-data@writer:/$ stty rows 52 cols 237
 ```
